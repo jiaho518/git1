@@ -10,6 +10,8 @@
 - HTML 표시내용
 
   - Web Page의 Contents(내용)
+    - Text Contents
+    - Multimedia Contents : image, video, audio
   - Web Page의 Structure(구조)
 
 - 학습 내용
@@ -45,3 +47,19 @@
 
 <br> => 빈 요소(Empty Element)
 ```
+
+## HTML Attribute
+
+- HTML Tag의 추가정보
+
+- syntax(문법) : name="value"
+
+```
+<img src="photo.jpg" alt="사진">
+```
+
+## Text Contents Element
+
+### Heading
+
+### Paragraph
