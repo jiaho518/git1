@@ -46,6 +46,8 @@
 <h1>제목</h1>
 
 <br> => 빈 요소(Empty Element)
+
+빈 요소 문법에 " / " 
 ```
 
 ## HTML Attribute
@@ -62,4 +64,18 @@
 
 ### Heading
 
+- 제목
+- h(heading)
+  - h1~ h6
+
 ### Paragraph
+
+- p(paragraph) : 단락
+
+- hr(Horizontal Rules) : 수평선(단락을 구분)
+
+- br(Line Break) : 강제 줄바꿈
+  (※ 강제 공백(Entity Code) : &nbsp; - Non-breaking space)
+  (※ & : apmersand)
+  - HTML Text : 줄바꿈, 공백 인식
+    - 공백 1칸으로 인식
