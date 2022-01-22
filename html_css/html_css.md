@@ -8,8 +8,13 @@
 - Markup Language : 표시 언어
 
 - HTML 표시내용
+
   - Web Page의 Contents(내용)
   - Web Page의 Structure(구조)
+
+- 학습 내용
+  - 문법
+  - 활용
 
 ## HTML Basic
 
