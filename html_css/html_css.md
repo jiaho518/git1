@@ -20,11 +20,11 @@
   ```
   <!DOCTYPE html>
   <html>
-  <head>
+    <head>
     웹 문서의 부가정보
-  </head>
-  <body>
+    </head>
+    <body>
     웹 문서의 내용
-  </body>
+    </body>
   </html>
   ```
