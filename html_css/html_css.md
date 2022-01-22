@@ -74,8 +74,14 @@
 
 - hr(Horizontal Rules) : 수평선(단락을 구분)
 
-- br(Line Break) : 강제 줄바꿈
-  (※ 강제 공백(Entity Code) : &nbsp; - Non-breaking space)
+- br(Line Break) : 강제 줄바꿈<br>
+  (※ 강제 공백(Entity Code) : &nbsp; - Non-breaking space)<br>
   (※ & : apmersand)
   - HTML Text : 줄바꿈, 공백 인식
     - 공백 1칸으로 인식
+
+### HTML List
+
+- 순서없는 목록 : ul, li
+- 순서있는 목록 : ol, li
+-설명 목록 : dl, dt, dd
