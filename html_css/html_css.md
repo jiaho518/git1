@@ -104,3 +104,17 @@
 - Bookmark 기능
   - 목적지에 id attribute를 사용해서 이름 지정
   - a 태그의 href 속성에 "#이름" 으로 표시
+
+### HTML Table
+
+- 표를 표시
+- table(표 영역)
+- tr(table row) : 행
+- th(table heading) : 각 열의 제목
+- td(table data) : 열 or 칸
+- table generator
+https://www.tablesgenerator.com/html_tables
+
+## Multimedia Contents
+
+### HTML image
