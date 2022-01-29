@@ -146,3 +146,21 @@ https://www.tablesgenerator.com/html_tables
 - footer : 웹 사이트의 하단 부분(위치 정보 및 관련 링크 등등)
 - figure : 다이어그램/이미지 시작 요소
 - main : 웹 페이지 본문 전체
+
+## URL / File Path
+
+- URL(Uniform Resource Locator)
+```
+https://www.naver.com/video/movie.mp4
+
+=> https://도메인네임/상세경로(:포트번호)
+
+IP 주소 : Internet Protocol 주소 => 인터넷에서 사용하는 실제 주소
+
+Ex) 192.168.0.1 : 0~255까지의 숫자 4개로 구성
+
+도메인 네임 : 영어 단어(줄임말)로 구성되어 있는 식별 이름
+
+도메인 네임 서버(시스템) : 도메인 네임 => IP 주소로 변환
+ 
+```
