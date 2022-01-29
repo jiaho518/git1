@@ -12,6 +12,7 @@
   - Web Page의 Contents(내용)
     - Text Contents
     - Multimedia Contents : image, video, audio
+      - Embedded Contents
   - Web Page의 Structure(구조)
 
 - 학습 내용
@@ -57,7 +58,7 @@
 - syntax(문법) : name="value" (이름/값 쌍)
 
 ```
-<img src="photo.jpg" alt="사진">
+<img src(소스)="photo.jpg" alt(alternative : 대체 텍스트)="텍스트 또는 이미지">
 ```
 
 ## Text Contents Element
@@ -118,3 +119,7 @@ https://www.tablesgenerator.com/html_tables
 ## Multimedia Contents
 
 ### HTML image
+
+- attribute(속성)
+  - src(sourc) : 이미지의 파일 경로, 이름
+  - alt(altanative) : 대체 텍스트 또는 이미지
