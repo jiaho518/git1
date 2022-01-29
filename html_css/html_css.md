@@ -123,3 +123,26 @@ https://www.tablesgenerator.com/html_tables
 - attribute(속성)
   - src(sourc) : 이미지의 파일 경로, 이름
   - alt(altanative) : 대체 텍스트 또는 이미지
+
+### HTML Video
+
+- video tag
+-attribute(name만 사용하는 형태)
+  - controls : 동영상 컨트롤(재생/일시정지/오디오) 버튼 표시 여부
+  - autoplay : 자동 재생
+  - muted : 음소거
+  - loop : 반복 재생
+  - poster : 영상 대체 이미지(썸네일)
+
+## Semantic Element
+
+- 영역을 구분하는 Element를 의미있게 사용하는 것
+
+- header
+- nav(navigation)
+- section
+- article
+- aside
+- footer
+- figure
+- main
