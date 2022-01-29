@@ -138,11 +138,11 @@ https://www.tablesgenerator.com/html_tables
 
 - 영역을 구분하는 Element를 의미있게 사용하는 것
 
-- header
-- nav(navigation)
-- section
-- article
-- aside
-- footer
-- figure
-- main
+- header : 로고, 로그인 메뉴, 언어변경 등 상단 바
+- nav(navigation) : gnb(global navigation bar / 메인영역), lnb(local navigation bar / 내부영역)
+- section : 웹 페이지의 본문 / 영역 구분
+- article : 웹 페이지의 본문 / 독립된 글or내용
+- aside : 부수적인 내용 / 광고 배너
+- footer : 웹 사이트의 하단 부분(위치 정보 및 관련 링크 등등)
+- figure : 다이어그램/이미지 시작 요소
+- main : 웹 페이지 본문 전체
