@@ -150,6 +150,7 @@ https://www.tablesgenerator.com/html_tables
 ## URL / File Path
 
 - URL(Uniform Resource Locator)
+
 ```
 https://www.naver.com/video/movie.mp4
 
@@ -163,4 +164,24 @@ Ex) 192.168.0.1 : 0~255까지의 숫자 4개로 구성
 
 도메인 네임 서버(시스템) : 도메인 네임 => IP 주소로 변환
  
+```
+
+- 경로(URL/File Path) 지정 방식
+  - root : 해당 경로의 가장 시작하는 위치
+  - 절대 지정 방식
+    - 파일 경로의 전체 URL을 표현하는 방식
+  - 상대 지정 방식
+    - 현재 페이지를 기준으로 일부 URL을 표현하는 방식
+    - root 상대 경로 방식 : root를 기준으로 상대적인 URL 표현
+```
+Domain : www.abc.com
+
+/(root) - html - Ex)index.html 
+        - images - photo.jpg
+
+절대 방식 : https://wwww.abc.com/images/photo.jpg
+
+상대 방식(현재페이지 : index.html) : ../images/photo.jpg
+
+root 상대방식 : /images/photo.jpg
 ```
