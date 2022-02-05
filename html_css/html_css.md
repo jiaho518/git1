@@ -185,3 +185,23 @@ Domain : www.abc.com
 
 root 상대방식 : /images/photo.jpg
 ```
+
+## HTML Head
+
+- head element
+  - title : 웹사이트 제목(브라우저 탭에 표시)
+  - meta* : 웹사이트 관련 정보
+  - link : css 파일 불러오기
+  - style : css 코드 작성
+  - script : js 코드 작성 / 파일 불러오기
+
+- meta
+  - charset(character set) : 문자 set - 글자(문자)를 표시하는 방식
+  - 종류/개수 => 용량
+    - bit : 0/1이 저장되는 공간
+    - 1bit가 저장/표현할 수 있는 개수(가짓수) : 2가지
+    - 2 * 2 * 2 * 2 => 4 bit = > 16개
+    - 1 byte = 8 bit => 256개 (byte < KB < MB < TB < PB ...)
+
+  - UTF-8 : 글자(문자) 표기 방식 중 하나
+    - UTF(Universal Coded Character Set + Transformation Format – 8-bit)
