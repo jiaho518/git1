@@ -201,7 +201,85 @@ root 상대방식 : /images/photo.jpg
     - bit : 0/1이 저장되는 공간
     - 1bit가 저장/표현할 수 있는 개수(가짓수) : 2가지
     - 2 * 2 * 2 * 2 => 4 bit = > 16개
-    - 1 byte = 8 bit => 256개 (byte < KB < MB < TB < PB ...)
+    - 1 byte = 8 bit => 256개(0~255) (byte < KB < MB < TB < PB ...)
 
   - UTF-8 : 글자(문자) 표기 방식 중 하나
+    - 2 byte로 글자를 표시(65,536개) : 유니코드
+    - 영문 1byte로 표현, 한글 2byte로 표시
     - UTF(Universal Coded Character Set + Transformation Format – 8-bit)
+
+  -EUC-KR : 한글, 영문 전용 표기 방식 
+
+## HTML Block & Inline
+
+- Block
+  - 줄바꿈 되어 새 줄에 표시됨
+  - 블럭요소는 너비가 가능한 전체가 채워짐
+  - Text, 블럭요소, 인라인요소 모두 포함할 수 있음
+
+- Inline
+  - 줄바꿈 되지 않고 한 줄에 표시됨
+  - 인라인 요소는 너비가 컨텐츠/자식요소에 맞춰짐
+  - Text, 인라인요소 포함할 수 있음(블럭 요소는 포함할 수 없음-예외 : a 태그)
+
+- div(division)
+  - 단순히 영역을 구분하거나 그룹핑을 하는 컨테이너 요소
+  - 블럭요소
+
+- span
+  - 단순히 영역을 구분하거나 그룹핑을 하는 컨테이너 요소
+  - 인라인 요소
+
+## HTML class, id
+
+- 해당 요소에 이름(식별자/identifier) 지정
+
+```
+<p class=""클래스 이름>...</p>
+<p id="아이디이름">...</p>
+<p>...</p>
+```
+
+- Class
+  - 하나의 웹문서내에서 동일한 이름을 사용할 수 있음
+  - 하나의 요소에 여러 개의 이름을 사용할 수 있음
+
+- Id
+  - 하나의 웹문서내에서 동일한 이름을 사용할 수 없음
+  - 하나의 요소에 여러 개의 이름을 사용할 수 없음
+
+```
+<div class="text import">text</div>
+<div class="text>text</div>
+
+<div id="title">title1</div>
+<div id="title">title2</div> => (X)
+
+<div id="title import>title3</div> => (X)
+```
+
+- Naming 표기법
+  - naming할 때 영어 한개 단어로만 naming을 하기 힘들기 때문에 여러 단어를 연결
+  - 연결되는 단어를 구분할 수 있도록 표기
+```
+hello html world : 일반적인 표기
+
+naming
+hello_html_world : snake case (파일명, 폴더명)
+hello-html-world : kebab case (URL폴더는 - 사용, html - class/id 이름)
+helloHtmlWorld : camel case (js 변수/함수 이름)
+HelloHtmlWorld : Pascal case (js class 이름)
+```
+
+# CSS
+
+## CSS Introduction / Syntax(문법)
+
+- Cascading Style Sheet
+- 여러 개의 html 파일에 공통 적용
+
+```
+Selector(선택자){
+  CSS property:value;
+}
+```
