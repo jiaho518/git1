@@ -198,6 +198,9 @@ root 상대방식 : /images/photo.jpg
 - meta
   - charset(character set) : 문자 set - 글자(문자)를 표시하는 방식
   - 종류/개수 => 용량
+    - bit : 0/1이 저장되는 공간
+    - 1bit가 저장/표현할 수 있는 개수(가짓수) : 2가지
+    
 
   - UTF-8 : 글자(문자) 표기 방식 중 하나
     - UTF(Universal Coded Character Set + Transformation Format – 8-bit)
