@@ -281,5 +281,7 @@ HelloHtmlWorld : Pascal case (js class 이름)
 ```
 Selector(선택자){
   CSS property:value;
+  CSS property:value;
+  CSS property:value;
 }
 ```
