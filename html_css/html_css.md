@@ -285,3 +285,39 @@ Selector(선택자){
   CSS property:value;
 }
 ```
+
+## CSS Selector
+
+- simple selector
+  - tag
+  - class
+  - id
+
+```
+tag 선택자로 사용시
+
+h1 { 
+  color:red;
+}
+
+class 선택자로 사용시
+
+.class{
+  color:blue;
+}
+
+id 선택자 사용시
+
+#id-name{
+  color:green;
+}
+```
+
+## Cascading(캐스캐이딩) 규칙
+
+- 동일한 대상에 동일한 CSS property가 여러번 적용될 때 앞에서 적용된 스타일 위에    나중에 적용된 스타일 덮어 쓰기됨
+- 제일 나중에 적용된 스타일로 최종 반영됨
+- 우선 순위
+  - id : 100점
+  - class : 10점
+  - tag : 1점
