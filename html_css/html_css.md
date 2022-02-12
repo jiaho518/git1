@@ -420,3 +420,105 @@ id 선택자 사용시
   - a:visited : 방문한 상태
   - a:hover : 마우스 오버시 상태
   - a:active : 클릭하고 있는 상태
+
+## Layout
+
+### Box Model
+
+- content => width/height : 너비/높이
+- padding : 안쪽 여백
+- border : 테두리
+- margin : 바깥여백
+- content, padding, border : 박스 영역에 포함
+
+#### content(width/height)
+
+- 박스 기본성질(block/inline)
+
+- block 요소 width/height
+  - 크기 지정 안했을 때
+    - 너비 : 부모요소 영역 너비만큼 채워짐
+    - 높이 : 자식요소 영역 높이만큼 지정됨
+  - px 지정
+    - 기본 성질에 상관없이 고정 크기
+  - % 지정
+    - 너비 : 부모요소 영역 기준으로 일정 비율만큼 지정
+      => 부모요소 너비가 변경되면 실시간으로 같이 변경
+    - 높이 : 기본 성질로 적용 => % 단위 적용되지 않음
+
+#### padding
+
+- 4방향 각각 적용(4개중 일부만 사용)
+  - padding-top
+  - padding-right
+  - padding-bottom
+  - padding-left
+
+- 축약 표현(4방향 동시적용 값을 따로 적용)
+  - 값 4개 : 각 방향 각각 적용
+  - 값 3개 : 위-아래 각각 적용, 왼쪽-오른쪽 공통 적용
+  - 값 2개 : 위-아래, 왼쪽-오른쪽 각각 공통 적용
+  - 값 1개 : 4방향 모두 공통 적용
+
+#### margin
+
+- padding과 사용방법이 같음
+
+- margin collapse
+  - 위-아래 세로 방향으로 인접해 있을 때 사이 여백이 상쇄되는 현상
+  - 위-아래 여백이 모두 적용되어 있을 때 둘 중 큰 쪽만 적용됨
+  - 위 또는 아래 박스 한쪽에만 margin 적용
+
+#### border
+
+- border:1px(굵기) solid(종류) color(색);
+
+- border-top
+- border-right
+- border-bottom
+- border-left
+
+#### box 크기 계산
+
+- content(width/height) + padding + border [+ margin]
+
+```
+Ex) width:300px, padding:20px, border;1px;
+=> 300 + 40 + 2 = 342
+
+전체크기 : 400px, padding:20px(4), border:1px(4), width:?
+=> 400 - 40 - 2 = 358 
+
+위 방식은 box기준이 content이므로 계산하기 불편한 점이 있다
+```
+
+- box-sizing
+  - content-box : content 기준(기본)
+  - border-box : box기준
+
+```
+Ex)
+width:300px, padding:20px(4), borderL1px(4)
+box-sizing:border-box;
+=> 전체크기 : 300px
+
+위 방식은 box기준이 border이므로 계산하기가 편하다
+```
+
+#### inline 요소에 box
+
+- content(width/height) : 적용 안됨
+- padding : 적용됨
+- border : 적용됨
+- margin : 일부 적용(좌우적용)
+
+=> inline 요소는 레이아웃 구성에 사용할 수 없음
+
+#### display 속성
+
+- 박스의 화면 표시 속성을 변경
+- display
+  - block
+  - inline
+  - inline-block : 박스모델 적용, 한 줄에 나란히 표시
+  - none
