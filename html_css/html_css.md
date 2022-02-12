@@ -412,3 +412,11 @@ id 선택자 사용시
 
 - border-collapse : 테이블 테두리 틈 상태 변경
 - collapse : 틈 합친 상태
+
+### Link Style
+
+- 4가지 상태 구분
+  - a:link : 기본 상태
+  - a:visited : 방문한 상태
+  - a:hover : 마우스 오버시 상태
+  - a:active : 클릭하고 있는 상태
