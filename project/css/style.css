@@ -3,11 +3,34 @@ font-family: 'Nunito Sans', sans-serif; */
 
 .section-heading {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 .section-paragraph {
   font-family: "Nunito Sans", sans-serif;
+  text-align: center;
 }
 .gnb-li-i {
+  font-family: "Montserrat", sans-serif;
   display: inline;
+  font-weight: 600;
+  padding: 10px;
+}
+.gnb-li {
+  text-align: right;
+}
+.footer {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-around;
+}
+.contact {
+  font-style: normal;
+  margin-right:120px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 70px;
 }

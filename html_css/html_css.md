@@ -449,6 +449,7 @@ id 선택자 사용시
 #### padding
 
 - 4방향 각각 적용(4개중 일부만 사용)
+
   - padding-top
   - padding-right
   - padding-bottom
@@ -487,7 +488,7 @@ Ex) width:300px, padding:20px, border;1px;
 => 300 + 40 + 2 = 342
 
 전체크기 : 400px, padding:20px(4), border:1px(4), width:?
-=> 400 - 40 - 2 = 358 
+=> 400 - 40 - 2 = 358
 
 위 방식은 box기준이 content이므로 계산하기 불편한 점이 있다
 ```
@@ -521,4 +522,81 @@ box-sizing:border-box;
   - block
   - inline
   - inline-block : 박스모델 적용, 한 줄에 나란히 표시
-  - none
+  - none : 공간을 차지하지 않음
+
+#### background
+
+- 배경
+  - 배경색
+  - 배경이미지
+
+- background-color - 배경색
+- background-repeat- 배경 이미지 반복 여부
+- background-attachment : 배경이미지 고정 여부
+
+#### 색, 투명도
+-  CSS 색 표현
+  - text color, border color, background color
+  - 색 이름(키워드)
+  - 16진수
+  - 10진수
+
+- 색 혼합 방식
+  - CMYk(감산혼합)
+    - Cyan(청록색), Magenta(자주색), Yellow(노란색), Black(key/검정색)
+  - RGB(가산혼합)
+    - Red(빨강색), Green(초록색), Blue(파랑색)
+
+- 색 개수 표현
+  - 3 byte : 1 byte(red), 1 Byte(Green), 1 byte(Blue)
+
+|Color|Red|Green|Blue|
+|---|---|---|---|
+|byte |1 byte|1 byte|1 byte|
+|개수|256|256|256|
+|10진수|0~255|0~255|0~255|
+|16진수|00~FF|00~FF|00~FF|
+
+```
+p{
+  color:#0A35FF;
+}
+
+div{
+  border:1px solid rgb(200, 150, 255)
+}
+
+```
+
+- 투명도
+  - opacity
+  - transparent
+  - alpha
+
+- opacity
+  - css 속성
+  - 0~1 소수점
+```
+p{
+  opacity:0.5;
+}
+```
+
+-transparent
+  -css 속성의 값
+
+```
+div{
+  background-color:transparent;
+  border:1px solid transparent;
+}
+```
+
+- alpha
+  - rgba 함수
+  - Red, Green, Blue, Alpha
+
+```
+div{
+  backgroud-
+}
