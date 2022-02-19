@@ -58,7 +58,8 @@ font-family: 'Nunito Sans', sans-serif; */
 .header {
   height: 100px;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  padding: 38px 100px 0px;
 }
 
 .logo {
@@ -66,15 +67,44 @@ font-family: 'Nunito Sans', sans-serif; */
   height: 25px;
 }
 
+.gnb-li {
+  display: flex;
+}
+
 .gnb-li-i {
-  display: inline;
-  text-align: right;
+  margin-left: 30px;
+}
+
+.gnb-li-li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.gnb-li-li:hover {
+  color:#10c9c3
 }
 
 .section1 {
   height: 320px;
   padding-top: 105px;
   background:#f6f6f6;
+}
+
+.section-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.section-paragraph {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color:#787878;
   text-align: center;
 }
 
@@ -90,11 +120,5 @@ font-family: 'Nunito Sans', sans-serif; */
   color:#bcbcbc;
   display: flex;
 }
-.section-heading {
-  font-family: "Montserrat", sans-serif;
-}
 
-.section-paragraph {
-  font-family: "Nunito Sans", sans-serif;
-}
 
