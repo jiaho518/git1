@@ -110,15 +110,70 @@ font-family: 'Nunito Sans', sans-serif; */
 
 .section2 {
   width:1360px;
+  margin: 0 auto; /* right,left margin - auto*/
+}
 
+.section2>.group {
+  display: flex;
+  justify-content: center;
+}
+
+.visual-wrap {
+  width: 340px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.visual {
+  display: block;
+  height: 300px;
 }
 
 .footer {
-  height: 280px;
-  padding-top: 100px;
+  height: 180px;
+  padding: 100px 100px 0 100px;
   background: #141414;
   color:#bcbcbc;
   display: flex;
+  justify-content: space-between;
 }
 
+.sub-logo {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color:#fff; /* #aa99cc => #a9c 2개 값이 같을 경우 줄여서 사용가능*/
+}
 
+.sns-li-li {
+  color:#bcbcbc
+}
+
+.section3 {
+  padding:50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dt1 {
+  margin-bottom: 10px;
+}
+
+.about-set {
+  height: 420px;
+  padding-top: 150px;
+  background:#fff;
+}
+
+.button {
+  font-family: "Nunito Sans", sans-serif;
+  border: 1px solid;
+  display: block;
+  margin: 30px auto;
+  padding: 20px 60px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #10c9c3;
+  cursor: pointer;
+}

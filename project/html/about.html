@@ -5,18 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Project - About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/project/css/style.css" />
   </head>
   <body>
-    <style>
-      a {
-        text-decoration: none;
-      }
-      ul {
-        list-style-type: none;
-      }
-    </style>
     <header class="header">
-      <h1 class="logo"><img alt="Piroll logo" class="logo-img" /></h1>
+      <h1 class="logo"><img src="/project/resource/logo.png" alt="Piroll logo" class="logo-img" /></h1>
       <nav class="gnb">
         <ul class="gnb-li">
           <li class="gnb-li-i"><a href="" class="gnb-li-li">HOME</a></li>
@@ -32,21 +31,21 @@
         User Interface Design and Development
       </p>
     </section>
-    <section>
+    <section class="section3">
       <dl>
-        <dt>548</dt>
+        <dt class="dt1">548</dt>
         <dd>PROJECTS COMPLETED</dd>
       </dl>
       <dl>
-        <dt>1465</dt>
+        <dt class="dt1">1465</dt>
         <dd>WORKING HOURS</dd>
       </dl>
       <dl>
-        <dt>612</dt>
+        <dt class="dt1">612</dt>
         <dd>POSITIVE FEEDBACKS</dd>
       </dl>
       <dl>
-        <dt>735</dt>
+        <dt class="dt1">735</dt>
         <dd>HAPPY CLIENTS</dd>
       </dl>
     </section>
@@ -57,57 +56,61 @@
         Were. You'll earth forth winged above brought. Own dakness<br />
         they're him can't fourth sea place have.
       </p>
-      <p>
+      <p class="section-paragraph">
         So the above May stars cattle fruitful face shall. Tree it, winged<br />
         Every singns male firmament us. Morning him.
         <img alt="" />
       </p>
     </section>
-    <section>
+    <section class="about-set">
       <h2 class="section-heading">Need a Project?</h2>
       <p class="section-paragraph">
         Let us know what you're looking for in an agency. We'll take a look and
         see<br />
         if this could be the start of something beautiful
       </p>
-      <button type="button">
-        <a
-          href="https://www.w3schools.com/html/html_classes.asp"
-          target="_blank"
-          >LET'S TALK</a
-        >
+      <button type="button" class="button"
+      onclick="window.open('https://www.w3schools.com/html/html_classes.asp')">
+        LET'S TALK
       </button>
     </section>
-    <footer class="footer">
+    <footrer class="footer">
       <article class="group">
-        <h5 class="sub-logo">
+        <h4 class="sub-logo">
           Prioll Design, Inc.
+        </h4>
           <p class="copyright">
             <!-- &copy;는 저작권 표시하는 entity code -->
-            &copy; 2017 Piroll. All rights reserved.<br />
+            &copy; 2017 Piroll. All rights reserved.<br>
             Designed by robirurk.
           </p>
-        </h5>
       </article>
       <address class="group">
-        <div class="contact">hello@piroll.com</div>
-        <div class="contact">+44 987 065 908</div>
+        <p class="contact">hello@piroll.com<br>
+        +44 987 065 908</p>
       </address>
       <article class="group">
         <ul class="sns-li">
           <li class="sns-li-i">
-            <a href="https://ko-kr.facebook.com/" target="_blank" class="sns-li-li">Facebook</a>
+            <a href="https://ko-kr.facebook.com/" target="_blank" class="sns-li-li">Facebook
+            </a>
           </li>
           <li class="sns-li-i">
-            <a href="https://twitter.com/?lang=ko" target="_blank" class="sns-li-li">Twitter</a>
+            <a
+              href="https://twitter.com/?lang=ko" target="_blank" class="sns-li-li">Twitter
+            </a>
           </li>
           <li class="sns-li-i">
-            <a href="https://www.instagram.com/accounts/login/" target="_blank" class="sns-li-li"
-              >Instagram</a>
+            <a
+              href="https://www.instagram.com/accounts/login/" target="_blank" class="sns-li-li">Instagram
+            </a>
           </li>
-          <li class="sns-li-i"><a href="https://dribbble.com/" target="_blank" class="sns-li-li">Dribbble</a></li>
+          <li class="sns-li-i">
+            <a href="https://dribbble.com/" target="_blank" class="sns-li-li">Dribbble
+            </a>
+          </li>
         </ul>
       </article>
-    </footer>
+    </footrer>
   </body>
 </html>
